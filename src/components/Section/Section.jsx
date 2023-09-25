@@ -1,7 +1,7 @@
 import React from 'react';
 import { SectionBox, SectionTitle } from './Section.styled';
 
-export const Section = ({ title, children }) => {
+const Section = ({ title, children }) => {
   return (
     <SectionBox>
       <SectionTitle>{title}</SectionTitle>
@@ -9,3 +9,5 @@ export const Section = ({ title, children }) => {
     </SectionBox>
   );
 };
+
+export default Section;

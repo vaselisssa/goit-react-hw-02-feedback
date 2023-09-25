@@ -13,12 +13,11 @@ export const Button = styled.button`
   padding: 5px;
   border-radius: 5px;
   border: none;
-  box-shadow: 0 1px 7px rgba(255, 255, 255, 0.3);
+  box-shadow: 0 1px 7px #8a9ec1;
   transition: all 0.3s ease;
   font-size: 20px;
 
-  &:hover,
-  &:focus {
+  &:hover {
     color: white;
     background-color: #8a9ec1;
     cursor: pointer;

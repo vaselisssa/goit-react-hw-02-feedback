@@ -1,7 +1,7 @@
 import React from 'react';
 import { FeedbackControls, Button } from './FeedbackOptions.styled';
 
-export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
+const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
     <FeedbackControls>
       {options.map(option => (
@@ -16,3 +16,5 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
     </FeedbackControls>
   );
 };
+
+export default FeedbackOptions;
